@@ -1,0 +1,66 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=MiniAES
+[Library]
+MiniAES=.\MiniAES\MiniAES.lib
+[$LibMap$]
+MiniAES=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/MiniAES_core.vhd=-1
+/SubBytes.vhd=-1
+/ShiftRows.vhd=-1
+/MixColumns.vhd=-1
+/AddRoundKey.vhd=-1
+/MiniAES_Enc.vhd=-1
+/MiniAES_Dec.vhd=-1
+/cache.vhd=-1
+TestBench/shiftrows_TB.vhd=-1
+TestBench/shiftrows_TB_runtest.do=-1
+TestBench/subbytes_TB.vhd=-1
+TestBench/subbytes_TB_runtest.do=-1
+TestBench/miniaes_enc_TB.vhd=-1
+TestBench/miniaes_enc_TB_runtest.do=-1
+TestBench/miniaes_dec_TB.vhd=-1
+TestBench/miniaes_dec_TB_runtest.do=-1
+TestBench/cache_TB.vhd=-1
+TestBench/cache_TB_runtest.do=-1
+[Files.Data]
+.\src\MiniAES_core.vhd=VHDL Source Code
+.\src\SubBytes.vhd=VHDL Source Code
+.\src\ShiftRows.vhd=VHDL Source Code
+.\src\MixColumns.vhd=VHDL Source Code
+.\src\AddRoundKey.vhd=VHDL Source Code
+.\src\MiniAES_Enc.vhd=VHDL Source Code
+.\src\MiniAES_Dec.vhd=VHDL Source Code
+.\src\cache.vhd=VHDL Source Code
+.\src\TestBench\shiftrows_TB.vhd=VHDL Test Bench
+.\src\TestBench\shiftrows_TB_runtest.do=Macro
+.\src\TestBench\subbytes_TB.vhd=VHDL Test Bench
+.\src\TestBench\subbytes_TB_runtest.do=Macro
+.\src\TestBench\miniaes_enc_TB.vhd=VHDL Test Bench
+.\src\TestBench\miniaes_enc_TB_runtest.do=Macro
+.\src\TestBench\miniaes_dec_TB.vhd=VHDL Test Bench
+.\src\TestBench\miniaes_dec_TB_runtest.do=Macro
+.\src\TestBench\cache_TB.vhd=VHDL Test Bench
+.\src\TestBench\cache_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=cache_tb|testbench_for_cache|1 shiftrows_tb|testbench_for_shiftrows|1 subbytes_tb|testbench_for_subbytes|1
+ShowHide=ShowTopLevel
+Selected=

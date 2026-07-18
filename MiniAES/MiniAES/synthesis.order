@@ -1,0 +1,13 @@
+i<>.\src\MiniAES_core.vhd
+i<>.\src\SubBytes.vhd
+i<>.\src\ShiftRows.vhd
+i<>.\src\MixColumns.vhd
+i<>.\src\AddRoundKey.vhd
+i<>.\src\TestBench\shiftrows_TB.vhd
+i<>.\src\TestBench\subbytes_TB.vhd
+i<>.\src\MiniAES_Enc.vhd
+i<>.\src\MiniAES_Dec.vhd
+i<>.\src\TestBench\miniaes_enc_TB.vhd
+i<>.\src\TestBench\miniaes_dec_TB.vhd
+i<>.\src\cache.vhd
+i<>.\src\TestBench\cache_TB.vhd

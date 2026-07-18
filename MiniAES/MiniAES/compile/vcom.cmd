@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/CALAB/MiniAES/MiniAES/compile/MiniAES.erf -d C:/My_Designs/CALAB/MiniAES/MiniAES/compile -s C:/My_Designs/CALAB/MiniAES/library.cfg -j C:/My_Designs/CALAB/MiniAES/MiniAES/projlib.cfg -work MiniAES -O3 -e 100 -work MiniAES -2002 C:/My_Designs/CALAB/MiniAES/MiniAES/src/TestBench/shiftrows_TB.vhd 
